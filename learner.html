@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+        <script src = "https://mimicproject.com/libs/learner.v.0.4.js">
+		const learner = new Learner();
+        learner.addGUI(document.getElementById("dataset"));
+        learner.addClassification(4);
+        learner.addRegression(4);
+        learner.setModelOptions({
+            numEpochs:1000, //defaults to 500
+            numHiddenLayers:1, //defaults to 1
+            numHiddenNodes:16 //defaults to 1
+        });
+        learner.setModelOptions({
+            k:5 //defaults to 1
+        });
+        const whenYouReceiveNewInputs = (newInputs)=> {
+  //Match inputs with output labels you have collected
+  learner.newExample(newInputs, outputs);
+};
+const learner = new Learner({onLoad:()=>{
+  learner.loadTrainingData("myLearnerData.json").then(()=> {
+    learner.train()
+  })
+}});
+learner.setCountIn(5);
+learner.setRecordLimit(5);
+learner.onOutput = (data)=> {
+  y = data;
+});
+learner.setFeatures([
+  {
+    features:["rms"],
+    input:[1,3],
+    window:[10],
+  }
+]);
+		</script>
+	</body>
+</html>
