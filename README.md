@@ -21,8 +21,12 @@ Machine Learning (ML) o aprendizaje automático
 Tareas y problemas del ML  
 [TensorFlow JavaScript](https://www.tensorflow.org/js/tutorials?hl=es-419): comenzar  
 Tecnologías necesarias: HTML, CSS y JavaScript  
+Mi primer página web en la carpeta webML  
 ## Clase 6
+Formas de aprendizaje  
 [Teachable Machine](https://teachablemachine.withgoogle.com/)  
+[Proyecto de reconocimiento de objetos con cámara con COCO-SSD](https://codelabs.developers.google.com/codelabs/tensorflowjs-object-detection?hl=en#0)  
+
 ## Recursos:
 [NotePad++](https://notepad-plus-plus.org/downloads/) editor de código para windows  
 [Visual Studio Code](https://code.visualstudio.com/) editor de código multiplataforma  
