@@ -26,7 +26,8 @@ Mi primer página web en la carpeta webML
 Formas de aprendizaje  
 [Teachable Machine](https://teachablemachine.withgoogle.com/)  
 [Proyecto de reconocimiento de objetos con cámara con COCO-SSD](https://codelabs.developers.google.com/codelabs/tensorflowjs-object-detection?hl=en#0)  
-
+## Clase 7
+Introducción a [ML5](https://ml5js.org/)  
 ## Recursos:
 [NotePad++](https://notepad-plus-plus.org/downloads/) editor de código para windows  
 [Visual Studio Code](https://code.visualstudio.com/) editor de código multiplataforma  
